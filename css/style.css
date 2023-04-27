@@ -1,0 +1,205 @@
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  /*estilos del body en general*/
+
+  body {
+    background-image: url(../multimedia/background-img.jpg);
+    background-color: rgba(0, 0, 0, 0.445);
+    background-blend-mode: soft-light;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+  .titulos {
+    padding: 10px 0 10px 0;
+    color: red;
+    text-shadow: 0 0 30px red, 0 0 0px red, 0 0 15px red;
+    font-family: 'Martel', serif;
+    font-size: 45px;
+  }
+
+  main p {
+    color: white;
+    line-height: 35px;
+    background-color: rgba(0, 0, 0, 0.7);
+    font-family: 'Dosis', sans-serif;
+    margin: 20px 0 20px 0;
+    padding: 50px;
+    font-size: 20px;
+  }
+
+  /* estilos del header */
+
+  nav {
+    margin: 0 0 20px 0;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+
+  .tobi-li a {
+    color: white;
+    text-decoration: underline;
+    font-family: 'Franklin Gothic Medium',
+      'Arial Narrow',
+      Arial,
+      sans-serif;
+    font-size: 17px;
+  }
+
+  .tobi-li a:hover {
+    color: red;
+  }
+
+  .nav-tobi {
+    padding: 20px;
+  }
+
+  ul {
+    gap: 20px;
+  }
+
+  span i {
+    font-size: 35px;
+  }
+
+  .navbar-toggler {
+    padding: 0 12px 0 12px;
+    border: none;
+  }
+
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+
+  /*estilos del index*/
+
+  .main-index {
+    padding: 0;
+  }
+
+  .resident {
+    margin: 20px 0 20px 0;
+  }
+
+  /* estilos de trailers */
+  
+  .iframe {
+    margin-bottom: 55px;
+  }
+
+  /* estilos de personajes */
+
+  .tarjeta-tobi {
+    margin: 20px 0 20px 0;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+
+  .texto-tarjeta-tobi {
+    padding: 30px;
+    background-color: transparent;
+    border: 1px solid white;
+  }
+
+  .imagen-tarjeta-tobi {
+    border: 1px solid white;
+  }
+
+  /* estilos de galeria */
+
+  .carrusel-tobi {
+    margin: 50px 0 50px 0;
+  }
+
+  /* estilos de sobre el juego */
+
+  .main-sobre-el-juego {
+    padding: 0;
+  }
+
+  /* estilos de ubicaciones */
+
+  .mainp {
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 50px;
+    border: solid white 1px;
+    text-align: start;
+    padding: 20px;
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .main-ubicaciones {
+    padding: 0;
+  }
+
+  .ubicaciones {
+    margin: 20px;
+  }
+
+  section {
+    margin: 20px 0 60px 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 60px black;
+  }
+
+  main h2 {
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    margin-top: 20px;
+  }
+
+  /*estilos del footer*/
+
+  i {
+    color: white;
+    font-size: 25px;
+  }
+
+  i:hover {
+    color: red;
+  }
+
+  footer {
+    padding-bottom: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    background-color: black;
+  }
+
+  footer h2 {
+    margin: 0;
+    padding: 20px 0 0 0;
+    color: red;
+    font-size: 25px;
+    text-shadow: 0 0 30px red, 0 0 0px red, 0 0 20px red;
+    font-family: 'Martel', serif;
+    display: grid;
+    justify-items: center;
+    align-content: center;
+  }
+
+  .ig-yt {
+    padding: 20px 0 0 0;
+    margin: 0;
+    gap: 40px;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .face-twitt {
+    padding: 20px 0 0 0;
+    margin: 0;
+    gap: 40px;
+    height: 80px;
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
