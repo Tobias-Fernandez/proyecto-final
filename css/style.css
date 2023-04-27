@@ -46,7 +46,7 @@
       'Arial Narrow',
       Arial,
       sans-serif;
-    font-size: 17px;
+    font-size: 16px;
   }
 
   .tobi-li a:hover {
@@ -85,7 +85,7 @@
   }
 
   /* estilos de trailers */
-  
+
   .iframe {
     margin-bottom: 55px;
   }
@@ -164,42 +164,15 @@
   }
 
   footer {
-    padding-bottom: 20px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1fr;
+    padding: 40px 0 40px 0;
     background-color: black;
   }
 
   footer h2 {
     margin: 0;
-    padding: 20px 0 0 0;
+    padding: 0;
     color: red;
     font-size: 25px;
     text-shadow: 0 0 30px red, 0 0 0px red, 0 0 20px red;
     font-family: 'Martel', serif;
-    display: grid;
-    justify-items: center;
-    align-content: center;
-  }
-
-  .ig-yt {
-    padding: 20px 0 0 0;
-    margin: 0;
-    gap: 40px;
-    list-style: none;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-  }
-
-  .face-twitt {
-    padding: 20px 0 0 0;
-    margin: 0;
-    gap: 40px;
-    height: 80px;
-    list-style: none;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
   }
