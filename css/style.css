@@ -27,9 +27,10 @@
     line-height: 35px;
     background-color: rgba(0, 0, 0, 0.7);
     font-family: 'Dosis', sans-serif;
+    text-align: center;
     margin: 20px 0 20px 0;
     padding: 50px;
-    font-size: 20px;
+    font-size: 23px;
   }
 
   /* estilos del header */
@@ -81,7 +82,8 @@
   }
 
   .resident {
-    margin: 20px 0 20px 0;
+    margin: 50px 0 100px 0;
+    padding-left: 25px;
   }
 
   /* estilos de trailers */
@@ -93,15 +95,19 @@
   /* estilos de personajes */
 
   .tarjeta-tobi {
+    padding: 0;
     margin: 20px 0 20px 0;
     border: none;
     background-color: rgba(0, 0, 0, 0.7);
   }
 
   .texto-tarjeta-tobi {
-    padding: 30px;
+    padding: 14px;
     background-color: transparent;
     border: 1px solid white;
+    font-size: 17px;
+    text-align: start;
+    line-height: 25px;
   }
 
   .imagen-tarjeta-tobi {
@@ -128,7 +134,7 @@
     border: solid white 1px;
     text-align: start;
     padding: 20px;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 28px;
   }
 
@@ -175,4 +181,28 @@
     font-size: 25px;
     text-shadow: 0 0 30px red, 0 0 0px red, 0 0 20px red;
     font-family: 'Martel', serif;
+  }
+
+
+  /* vista mobile */
+
+  @media (max-width: 576px) {
+    body {
+      background-image: url(../multimedia/background-img-mobile.jpg);
+      background-position: center;
+    }
+
+    .titulos {
+      font-size: 35px;
+    }
+
+    footer h2 {
+      font-size: 16px;
+    }
+
+    i {
+      font-size: 18px;
+    }
+
+
   }
