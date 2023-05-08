@@ -1,0 +1,40 @@
+nav {
+    margin-bottom: nth($margins, 2);
+    background-color: nth($colors, 3);
+}
+
+.tobi-li a {
+    color: nth($colors, 2);
+    text-decoration: underline;
+    font-family: 'Franklin Gothic Medium',
+        'Arial Narrow',
+        Arial,
+        sans-serif;
+    font-size: nth($fonts-size, 3);
+}
+
+.tobi-li a:hover {
+    color: nth($colors, 1);
+}
+
+.nav-tobi {
+    padding: nth($paddings, 7);
+}
+
+ul {
+    gap: 20px;
+}
+
+span i {
+    font-size: nth($fonts-size, 10);
+}
+
+.navbar-toggler {
+    padding-left: nth($paddings, 4);
+    padding-right: nth($paddings, 4);
+    border: none;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}

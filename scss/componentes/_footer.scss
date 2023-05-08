@@ -1,0 +1,26 @@
+i {
+    color: nth($colors, 2);
+    font-size: nth($fonts-size, 8);
+}
+
+i:hover {
+    color: nth($colors, 1);
+}
+
+footer {
+    padding: nth($paddings, 7) nth($paddings, 7);
+    background-color: nth($colors, 5);
+    position: absolute;
+    bottom: 0;
+}
+
+footer h2 {
+    margin: nth($margins, 1);
+    padding: nth($paddings, 1);
+    color: nth($colors, 1);
+    font-size: nth($fonts-size, 8);
+    text-shadow: 0 0 30px red, 0 0 0px red, 0 0 20px red;
+    font-family: 'Martel', serif;
+    margin-bottom: nth($margins, $n: 5);
+}
+

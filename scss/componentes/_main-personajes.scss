@@ -1,0 +1,21 @@
+.tarjeta-tobi {
+    padding: nth($paddings, 1);
+    margin-top: nth($margins, 2);
+    margin-bottom: nth($margins, 2);
+    border: none;
+    background-color: nth($colors, 3);
+    width: 20rem;
+}
+
+.texto-tarjeta-tobi {
+    padding: nth($paddings, 6);
+    background-color: transparent;
+    border: $bdr;
+    font-size: nth($fonts-size, 3);
+    text-align: start;
+    line-height: nth($lines-height, 1);
+}
+
+.imagen-tarjeta-tobi {
+    border: $bdr;
+}

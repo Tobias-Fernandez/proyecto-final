@@ -1,0 +1,29 @@
+.texto-ubicaciones {
+    background-color: nth($colors, 4);
+    margin: nth($margins, 6);
+    border: $bdr;
+    text-align: center;
+    padding: nth($paddings, 2) nth($paddings, 7) nth($paddings, 2) nth($paddings, 7);
+    font-size: nth($fonts-size, 5);
+    line-height: nth($lines-height, 2);
+}
+
+.main-ubicaciones {
+    padding: nth($paddings, 1);
+}
+
+.ubicaciones {
+    margin: nth($margins, 2);
+}
+
+section {
+    margin-top: nth($margins, 2);
+    margin-bottom: nth($margins, 8);
+    background-color: nth($colors, 4);
+}
+
+main h2 {
+    color: nth($colors, 2);
+    font-size: nth($fonts-size, 10);
+    margin-top: nth($margins, 2);
+}

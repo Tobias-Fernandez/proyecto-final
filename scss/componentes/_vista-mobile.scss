@@ -1,0 +1,62 @@
+@media (max-width: 576px) {
+
+    // estilos del body en general
+
+    body {
+        background-image: url(../../multimedia/background-img-mobile.jpg);
+        background-color: nth($colors, 6);
+        background-position: center;
+        padding-bottom: nth($paddings, 9);
+    }
+
+    .titulos {
+        font-size: nth($fonts-size, 9);
+        text-align: center;
+    }
+
+    main p {
+        line-height: nth($lines-height, 4);
+    }
+
+    // estilos de sobre el juego
+
+    .texto-sobre-el-juego {
+        font-size: nth($fonts-size, 6);
+        line-height: nth($lines-height, 3);
+    }
+
+    // estilos de personajes
+
+    .tarjeta-tobi {
+        width: 16rem;
+    }
+
+    .texto-tarjeta-tobi {
+        font-size: nth($fonts-size, 1);
+    }
+
+    // estilos de ubicaciones
+
+    main h2 {
+        font-size: nth($fonts-size, 5);
+    }
+
+    .texto-ubicaiones {
+        padding: nth($paddings, 5);
+        font-size: nth($fonts-size, 1);
+        line-height: nth($lines-height, 1);
+    }
+
+    // estilos del footer
+
+    footer h2 {
+        font-size: nth($fonts-size, 2);
+        margin-bottom: nth($margins, 3);
+        text-align: center;
+    }
+
+    i {
+        font-size: nth($fonts-size, 4);
+    }
+
+}
