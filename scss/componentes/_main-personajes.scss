@@ -2,7 +2,7 @@
     padding: nth($paddings, 1);
     margin-top: nth($margins, 2);
     margin-bottom: nth($margins, 2);
-    border: none;
+    border: $brd-bxshdw;
     background-color: nth($colors, 3);
     width: 20rem;
 }
@@ -10,12 +10,12 @@
 .texto-tarjeta-tobi {
     padding: nth($paddings, 6);
     background-color: transparent;
-    border: $bdr;
     font-size: nth($fonts-size, 3);
-    text-align: start;
+    text-align: $txt-algn-strt;
     line-height: nth($lines-height, 1);
+    @extend %brd;
 }
 
 .imagen-tarjeta-tobi {
-    border: $bdr;
+    @extend %brd;
 }

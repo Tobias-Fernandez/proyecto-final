@@ -1,3 +1,4 @@
+
 nav {
     margin-bottom: nth($margins, 2);
     background-color: nth($colors, 3);
@@ -6,15 +7,12 @@ nav {
 .tobi-li a {
     color: nth($colors, 2);
     text-decoration: underline;
-    font-family: 'Franklin Gothic Medium',
-        'Arial Narrow',
-        Arial,
-        sans-serif;
+    font-family: $font-nav;
     font-size: nth($fonts-size, 3);
-}
 
-.tobi-li a:hover {
-    color: nth($colors, 1);
+    &:hover {
+        color: nth($colors, 1);
+    }
 }
 
 .nav-tobi {
@@ -27,14 +25,19 @@ ul {
 
 span i {
     font-size: nth($fonts-size, 10);
+    color: nth($colors, 2);
+
+    &:hover {
+        color: nth($colors, 1);
+    }
 }
 
 .navbar-toggler {
     padding-left: nth($paddings, 4);
     padding-right: nth($paddings, 4);
-    border: none;
-}
+    border: $brd-bxshdw;
 
-.navbar-toggler:focus {
-    box-shadow: none;
+    &:focus {
+        box-shadow: $brd-bxshdw;
+    }
 }

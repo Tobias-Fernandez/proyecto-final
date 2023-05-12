@@ -3,19 +3,19 @@
     // estilos del body en general
 
     body {
-        background-image: url(../../multimedia/background-img-mobile.jpg);
+        background-image: url(../multimedia/background-img-mobile.jpg);
         background-color: nth($colors, 6);
         background-position: center;
         padding-bottom: nth($paddings, 9);
+
+        main p {
+            line-height: nth($lines-height, 4);
+        }
     }
 
     .titulos {
         font-size: nth($fonts-size, 9);
-        text-align: center;
-    }
-
-    main p {
-        line-height: nth($lines-height, 4);
+        text-align: $txt-algm-cntr;
     }
 
     // estilos de sobre el juego
@@ -28,7 +28,7 @@
     // estilos de personajes
 
     .tarjeta-tobi {
-        width: 16rem;
+        width: 20rem;
     }
 
     .texto-tarjeta-tobi {
@@ -37,11 +37,11 @@
 
     // estilos de ubicaciones
 
-    main h2 {
-        font-size: nth($fonts-size, 5);
+    main section h2 {
+        font-size: nth($fonts-size, 8);
     }
 
-    .texto-ubicaiones {
+    .texto-ubicaciones {
         padding: nth($paddings, 5);
         font-size: nth($fonts-size, 1);
         line-height: nth($lines-height, 1);
@@ -52,7 +52,7 @@
     footer h2 {
         font-size: nth($fonts-size, 2);
         margin-bottom: nth($margins, 3);
-        text-align: center;
+        text-align: $txt-algm-cntr;
     }
 
     i {

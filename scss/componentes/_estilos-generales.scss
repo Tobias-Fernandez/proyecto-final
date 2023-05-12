@@ -4,40 +4,40 @@
 }
 
 body {
-    background-image: url(../../multimedia/background-img.jpg);
-    background-color: rgba(0, 0, 0, 0.445);
-    background-blend-mode: soft-light;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    position: relative;
-    min-height: 100vh;
+    background-image: url(../multimedia/background-img.jpg);
+    background-color: map-get($body, bg-c);
+    background-blend-mode: map-get($body, bg-bm);
+    background-repeat: map-get($body, bg-rpt);
+    background-attachment: map-get($body, bg-att);
+    background-size: map-get($body, bg-sz);
+    position: map-get($body, pst);
+    min-height: map-get($body, m-hgt);
     padding-bottom: nth($paddings , 10);
+    overflow-x: map-get($body, of-x);
+    margin-right: nth($margins, 1);
+
+    main p {
+            color: nth($colors, 2);
+            line-height: nth($lines-height, 2);
+            background-color: nth($colors, 3);
+            font-family: $font-texts;
+            text-align: $txt-algm-cntr;
+            margin-top: nth($margins, 2);
+            margin-bottom: nth($margins, 2);
+            padding: nth($paddings, 8);
+            font-size: nth($fonts-size, 7);
+        }
 }
 
 .titulos {
     padding-top: nth($paddings , 3);
     padding-bottom: nth($paddings, 3);
     color: nth($colors, 1);
+    font-size: nth($fonts-size , 11);
     text-shadow: 0 0 30px red,
         0 0 0px red,
-        0 0 15px red;
-    font-size: nth($fonts-size , 11);
-    font-family: 'Martel',
-        serif;
-}
-
-main p {
-    color: nth($colors, 2);
-    line-height: nth($lines-height, 2);
-    background-color: nth($colors, 3);
-    font-family: 'Dosis',
-        sans-serif;
-    text-align: center;
-    margin-top: nth($margins, 2);
-    margin-bottom: nth($margins, 2);
-    padding: nth($paddings, 8);
-    font-size: nth($fonts-size, 7);
+        0 0 15px red,;
+    font-family: $font-tittles;
 }
 
 .main-index {
