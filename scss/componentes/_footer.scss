@@ -20,9 +20,11 @@ footer {
     i {
         color: nth($colors, 2);
         font-size: nth($fonts-size, 8);
+        transition: all 0.5s;
         
             &:hover {
                 color: nth($colors, 1);
+                transform: scale(1.3);
             }
     }
 }
