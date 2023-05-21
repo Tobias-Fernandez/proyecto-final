@@ -129,7 +129,8 @@ span i:hover {
 
 .texto-ubicaciones {
   background-color: rgba(0, 0, 0, 0.5);
-  margin: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
   text-align: center;
   padding: 5px 20px 5px 20px;
   font-size: 20px;
@@ -138,6 +139,10 @@ span i:hover {
 
 .main-ubicaciones {
   padding: 0;
+}
+
+.div-ubi {
+  margin-right: 0;
 }
 
 .ubicaciones {

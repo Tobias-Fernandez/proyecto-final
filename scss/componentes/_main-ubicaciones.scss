@@ -1,6 +1,7 @@
 .texto-ubicaciones {
     background-color: nth($colors, 4);
-    margin: nth($margins, 6);
+    margin-top: nth($margins, 6);
+    margin-bottom: nth($margins, 6);
     text-align: $txt-algm-cntr;
     padding: nth($paddings, 2) nth($paddings, 7) nth($paddings, 2) nth($paddings, 7);
     font-size: nth($fonts-size, 5);
@@ -10,6 +11,10 @@
 
 .main-ubicaciones {
     padding: nth($paddings, 1);
+}
+
+.div-ubi {
+    margin-right: nth($margins, 1);
 }
 
 .ubicaciones {
@@ -29,5 +34,4 @@ main {
         }
     }
 }
-
 
