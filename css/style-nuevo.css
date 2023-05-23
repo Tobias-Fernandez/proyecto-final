@@ -152,7 +152,9 @@ span i:hover {
 main section {
   margin-top: 20px;
   margin-bottom: 60px;
+  margin-right: 0;
   background-color: rgba(0, 0, 0, 0.5);
+  overflow-x: hidden;
 }
 main section h2 {
   color: white;

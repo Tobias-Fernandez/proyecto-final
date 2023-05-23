@@ -25,7 +25,9 @@ main {
     section {
         margin-top: nth($margins, 2);
         margin-bottom: nth($margins, 8);
+        margin-right: nth($margins, 1);
         background-color: nth($colors, 4);
+        overflow-x: hidden;
 
         h2 {
             color: nth($colors, 2);
