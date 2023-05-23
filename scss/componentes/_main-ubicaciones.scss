@@ -27,7 +27,7 @@ main {
         margin-bottom: nth($margins, 8);
         margin-right: nth($margins, 1);
         background-color: nth($colors, 4);
-        overflow-x: hidden;
+        overflow: hidden;
 
         h2 {
             color: nth($colors, 2);
